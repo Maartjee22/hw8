@@ -1,0 +1,36 @@
+1 задача
+import random
+a = random.randint(0, 10)
+print(a)
+
+2 задача
+a = "Marina"
+for c in a:
+    print(c)
+else:
+    print(" ")
+
+3 задача
+a = 1
+b = 1
+while a < 10:
+    while b < 10:
+        print(a * b, end = "\t")
+        b += 1
+    print("\n")
+    a = 1
+    b += 1
+    
+4 задача
+a = [0, 1, 2, 3, 7, 9, 18, 29, 34, 50, 91, 112]
+for b in a:
+    if b < 9:
+        print(b)
+        
+5 задача
+a = [0, 8, 23, 55, 67, 68, 134, 223, 230, 270, 345, 346, 400]
+for b in a:
+    if b % 2 == 0:
+        print(b, end=' ')
+    elif b == 345:
+        break
